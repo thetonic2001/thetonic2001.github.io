@@ -411,7 +411,7 @@ section.about-us {
 }
 
 .pixal-title {
-	color: purple;
+	color: #C62ADD;
 }
 
 .subs-bench-title {
@@ -422,7 +422,96 @@ section.about-us {
   color: #27E29A;
 }
 
+.fuseweb-title {
+  color: #00FFFF;
+}
+
 .img-centered {
     margin: 0 auto;
 }
 
+.btn-pixel {
+  background-color: #C62ADD;
+  color: white;
+}
+
+.btn-myoozik {
+  background-color: red;
+  color: white;
+}
+
+.btn-subsbench {
+  background-color: #279ae2;
+  color: white;
+}
+
+.btn-taskflow {
+  background-color: #27E29A;
+  color: white;
+}
+
+.btn-fuseweb {
+  background-color: #00FFFF;
+  color: white;
+}
+
+
+
+/*----------------------------------------------------------------------------- 
+=SOCIAL-MEDIA ICONS
+-----------------------------------------------------------------------------*/
+
+.fa-twitter{
+    color: gray;
+    font-size: 18px;
+}
+
+.fa-twitter:hover {
+    color: #4099FF;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.fa-facebook{
+    color: gray;
+    font-size: 18px;
+}
+
+.fa-facebook:hover {
+    color: #3B5998;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.fa-vine{
+    color: gray;
+    font-size: 18px;
+}
+
+.fa-vine:hover {
+    color: #00bf8f;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.fa-youtube{
+    color: gray;
+    font-size: 18px;
+}
+
+.fa-youtube:hover {
+    color: red;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.fa-instagram{
+    color: gray;
+    font-size: 18px;
+}
+
+.fa-instagram:hover {
+    color: #517fa4;
+    font-size: 18px;
+    text-decoration: none;
+}
