@@ -4,7 +4,11 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #279ae2
+    color: #279ae2;
+}
+
+.navbar-brand {
+  color: #279ae2;
 }
 
 @media(min-width:768px) {
@@ -412,6 +416,10 @@ section.about-us {
 
 .subs-bench-title {
 	color: #279ae2;
+}
+
+.taskflow-title {
+  color: #27E29A;
 }
 
 .img-centered {
