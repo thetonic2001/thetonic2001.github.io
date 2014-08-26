@@ -182,11 +182,46 @@ hr.star-info:after {
     background-color: #279ae2;
 }
 
+hr.star-home {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-home:after {
+    content: "\f015";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-home {
+    border-color: white;
+}
+
+hr.star-home:after {
+    color: white;
+    background-color: #279ae2;
+}
+
+
+.footer-below {
+      color: #fff;
+    background: #279ae2;
+      padding-top: 25px;
+  padding-bottom: 20px;
+
+}
 
 
 
-
-section.about-us {
+section.about-us, .home {
     color: #fff;
     background: #279ae2;
     padding-top: 100px;
@@ -500,7 +535,7 @@ section.about-us {
 }
 
 .fa-youtube:hover {
-    color: red;
+    color: #bb0000;
     font-size: 18px;
     text-decoration: none;
 }
@@ -514,4 +549,83 @@ section.about-us {
     color: #517fa4;
     font-size: 18px;
     text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------- 
+=HOME SOCIAL-MEDIA ICONS
+-----------------------------------------------------------------------------*/
+
+.home-social .fa-twitter{
+    color: white;
+    font-size: 22px;
+        border: 1px white solid;
+    padding:4px;
+}
+
+.home-social .fa-twitter:hover {
+    color: #4099FF;
+    font-size: 22px;
+    text-decoration: none;
+    background-color: white;
+}
+
+.home-social .fa-facebook{
+    color: white;
+    font-size: 22px;
+        border: 1px white solid;
+    padding:4px;
+}
+
+.home-social .fa-facebook:hover {
+    color: #3B5998;
+    font-size: 22px;
+    text-decoration: none;
+    background-color: white;
+}
+
+.home-social .fa-vine{
+    color: white;
+    font-size: 22px;
+        border: 1px white solid;
+    padding:4px;
+}
+
+.home-social .fa-vine:hover {
+    color: #00bf8f;
+    font-size: 22px;
+    text-decoration: none;
+    background-color: white;
+}
+
+.home-social .fa-youtube{
+    color: white;
+    font-size: 22px;
+        border: 1px white solid;
+    padding:4px;
+}
+
+.home-social .fa-youtube:hover {
+    color: #bb0000;
+    font-size: 22px;
+    text-decoration: none;
+    background-color: white;
+}
+
+
+.home-social .fa-instagram{
+    color: white;
+    font-size: 22px;
+    border: 1px white solid;
+    padding:4px;
+}
+
+.home-social .fa-instagram:hover {
+    color: #517fa4;
+    font-size: 22px;
+    text-decoration: none;
+    background-color: white;
+}
+
+.fa-globe {
+    font-size: 200px;
 }
