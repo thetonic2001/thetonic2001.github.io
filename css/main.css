@@ -56,13 +56,13 @@ a.active {
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
-    color: red;
 }
 
 .navbar .navbar-nav li a:hover {
     outline: 0;
     color: #279ae2;
 }
+
 
 .navbar-default,
 .navbar-inverse {
@@ -654,6 +654,8 @@ section.about, .home {
 
 
 }
+
+
 
 .large-title {
   font-size: 50px;
